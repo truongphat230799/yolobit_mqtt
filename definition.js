@@ -259,7 +259,7 @@ Blockly.Blocks["yolobit_mqtt_check_connection"] = {
     "type": "yolobit_mqtt_check_connection",
     "message0": "kết nối wifi thành công ?",
     "output": null,
-    "colour": 230,
+    "colour": "#e65722",
     "tooltip": "",
     "helpUrl": ""
 }
