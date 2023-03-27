@@ -258,7 +258,7 @@ Blockly.Blocks["yolobit_mqtt_check_connection"] = {
       {
       "type": "yolobit_mqtt_check_connection",
       "message0": "đang kết nối wifi",
-      "output": null,
+      "output": "Boolean",
       "colour": "#e65722",
       "tooltip": "",
       "helpUrl": ""
@@ -273,3 +273,4 @@ Blockly.Python['yolobit_mqtt_check_connection'] = function(block) {
   var code = 'mqtt.wifi_connected() == True\n';
   return code;
 };
+
