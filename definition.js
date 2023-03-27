@@ -251,3 +251,25 @@ Blockly.Python['yolobit_wifi_on_receive_message_from_dashboard'] = function(bloc
   Blockly.Python.definitions_['on_wifi_message_receive_callback_' + block.id + '_statement'] = code;
   return '';
 };
+
+Blockly.Blocks["yolobit_mqtt_check_connection"] = {
+  init: function () {
+    this.jsonInit(
+      {
+    "type": "yolobit_mqtt_check_connection",
+    "message0": "kết nối wifi thành công ?",
+    "output": null,
+    "colour": 230,
+    "tooltip": "",
+    "helpUrl": ""
+}
+    );
+}
+};
+
+Blockly.Python['yolobit_mqtt_check_connection'] = function(block) {
+  Blockly.Python.definitions_['import_mqtt'] = 'from mqtt import *';
+  // TODO: Assemble Python into code variable.
+  var code = 'mqtt.wifi_connected()\n';
+  return code;
+};
