@@ -270,7 +270,7 @@ Blockly.Blocks["yolobit_mqtt_check_connection"] = {
 Blockly.Python['yolobit_mqtt_check_connection'] = function(block) {
   Blockly.Python.definitions_['import_mqtt'] = 'from mqtt import *';
   // TODO: Assemble Python into code variable.
-  var code = 'mqtt.wifi_connected() == True\n';
+  var code = 'mqtt.wifi_connected()\n';
   return code;
 };
 
