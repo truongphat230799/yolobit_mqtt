@@ -58,8 +58,8 @@
         </shadow>
       </value>
     </block>
-    <block type="yolobit_mqtt_check_connection" />
-    <block type="yolobit_mqtt_check_message" />
+    <block type="yolobit_mqtt_check_connection"/>
+    <block type="yolobit_mqtt_check_message"/>
     <block type="yolobit_mqtt_on_receive_message">
       <value name="TOPIC">
         <shadow type="text">

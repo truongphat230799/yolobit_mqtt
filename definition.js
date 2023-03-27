@@ -256,13 +256,13 @@ Blockly.Blocks["yolobit_mqtt_check_connection"] = {
   init: function () {
     this.jsonInit(
       {
-    "type": "yolobit_mqtt_check_connection",
-    "message0": "kết nối wifi thành công ?",
-    "output": null,
-    "colour": "#e65722",
-    "tooltip": "",
-    "helpUrl": ""
-}
+      "type": "yolobit_mqtt_check_connection",
+      "message0": "đang kết nối wifi",
+      "output": null,
+      "colour": "#e65722",
+      "tooltip": "",
+      "helpUrl": ""
+      }
     );
 }
 };
